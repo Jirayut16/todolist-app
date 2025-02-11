@@ -44,7 +44,7 @@ function AddTodo({ addTask }: { addTask: (task: TypeofTodoValue) => void }) {
 
         <input
           type="text"
-          className="border-2 rounded-md px-2 md:px-4 py-2 text-lg"
+          className="border-2 rounded-md px-2 md:px-4 py-2 text-lg w-64 md:w-full"
           placeholder="Add your task.."
           onChange={getValue}
           value={todoValue}
@@ -56,7 +56,7 @@ function AddTodo({ addTask }: { addTask: (task: TypeofTodoValue) => void }) {
           type="submit"
           className="bg-teal-500  dark:bg-[#FF6500] dark:hover:bg-[#FF6500]/80 px-4 py-2 rounded-md h-12 text-white text-md md:text-xl font-semibold hover:bg-teal-600 duration-200 transition-all"
         >
-          Now add
+          Add now
         </button>
       </form>
     </div>

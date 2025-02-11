@@ -39,7 +39,7 @@ function Homepage() {
     <>
       <AddTodo addTask={addTask}></AddTodo>
 
-      <ul className="bg-gray-300 md:mx-0 mx-4 dark:bg-gray-400 rounded-md shadow-sm p-4 mt-8 mb-16 duration-200 transition-all ease-in">
+      <ul className="bg-gray-300 md:mx-0 mx-4 dark:bg-gray-600 rounded-md shadow-sm p-4 mt-8 mb-16 duration-200 transition-all ease-in">
         {todos.map((todo, i) => (
           <Todoitem
             todo={todo}

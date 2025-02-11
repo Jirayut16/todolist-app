@@ -62,13 +62,13 @@ function Todoitem({
 
   return (
     <>
-      <li className="flex flex-row justify-between bg-white rounded-md shadow-sm p-4 mt-4 first:mt-0">
+      <li className="flex flex-row justify-between bg-white dark:bg-black rounded-md shadow-sm p-4 mt-4 first:mt-0">
         <div className="flex flex-row gap-x-4 mr-auto items-center">
-          <div className="h-6 w-6 rounded-full shadow-sm text-white text-sm bg-teal-500 dark:bg-[#FF6500] text-center content-center">
+          <div className="h-6 w-6 rounded-full shadow-sm text-white  text-sm bg-teal-500 dark:bg-[#FF6500] text-center content-center">
             {id + 1}
           </div>
           <div className="flex flex-col">
-            <p className="font-semibold">{todo.todoValue}</p>
+            <p className="font-semibold dark:text-white">{todo.todoValue}</p>
             <p className="text-sm text-gray-400">{todo.date}</p>
           </div>
         </div>
