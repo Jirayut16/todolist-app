@@ -56,7 +56,7 @@ function AddTodo({ addTask }: { addTask: (task: TypeofTodoValue) => void }) {
           type="submit"
           className="bg-teal-500  dark:bg-[#FF6500] dark:hover:bg-[#FF6500]/80 px-4 py-2 rounded-md h-12 text-white text-md md:text-xl font-semibold hover:bg-teal-600 duration-200 transition-all"
         >
-          Add now
+          Now add
         </button>
       </form>
     </div>
