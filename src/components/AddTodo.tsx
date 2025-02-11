@@ -44,7 +44,7 @@ function AddTodo({ addTask }: { addTask: (task: TypeofTodoValue) => void }) {
 
         <input
           type="text"
-          className="border-2 rounded-md px-2 md:px-4 py-2 text-lg w-64 md:w-full"
+          className="border-2 rounded-md px-2 md:px-4 py-2 text-lg w-64 md:w-96"
           placeholder="Add your task.."
           onChange={getValue}
           value={todoValue}
